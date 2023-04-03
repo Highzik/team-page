@@ -1,0 +1,57 @@
+.main-text-container {
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+}
+
+.tcc-crew {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 36px;
+}
+
+.about-us,
+.details-about-us {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.details-about-us {
+  width: 400px;
+}
+
+.images {
+  width: 200px;
+  height: auto;
+}
+
+.container-for-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  padding: 130px;
+  grid-gap: 20px;
+  margin-left: 80px;
+}
+
+.profession {
+  transform: rotate(90deg);
+  position: relative;
+  left: 60px;
+  bottom: 185px;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.author-names {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.workon-1,
+.workon-2 {
+  margin-top: 100px;
+}
