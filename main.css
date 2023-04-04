@@ -29,6 +29,8 @@
 .container-for-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
   margin-top: 10px;
   padding: 130px;
   grid-gap: 20px;
@@ -38,8 +40,8 @@
 .profession {
   transform: rotate(90deg);
   position: relative;
-  left: 60px;
-  bottom: 185px;
+  left: 55px;
+  bottom: 180px;
   font-family: serif;
   font-size: 18px;
 }
@@ -54,4 +56,70 @@
 .workon-1,
 .workon-2 {
   margin-top: 100px;
+}
+
+footer>p {
+  text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+
+  .tcc-crew,
+  .about-us,
+  .details-about-us {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .about-container {
+    width: 300px;
+  }
+
+  .main-text-container {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  .container-for-images {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    column-gap: 20px;
+    row-gap: 15px;
+    padding: 0;
+  }
+
+  .profession {
+    position: relative;
+    font-size: 13px;
+    width: 115px;
+    bottom: 184px;
+    left: 92px;
+  }
+
+  .author-names {
+    font-size: 13px;
+  }
+
+  #workon-2,
+  #workon-4,
+  #workon-6 {
+    margin-top: 100px;
+  }
+
+  .workon-1,
+  .workon-2 {
+    margin-top: 0;
+  }
+
+  footer>p {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
 }
